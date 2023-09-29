@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "graphene_django",
     "players.apps.PlayersConfig",
     "clubs.apps.ClubsConfig",
     "games.apps.GamesConfig",
@@ -53,6 +54,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "tennis_diary.urls"
+
 
 TEMPLATES = [
     {
